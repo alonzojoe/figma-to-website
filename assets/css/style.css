@@ -22,6 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 26px 69px;
+    border-bottom: 5px solid #757575;
 }
 
 .logo {
@@ -93,4 +94,107 @@ header {
 
 .nav-buttons a.sign-up:hover {
     background: #8a4acb;
+}
+
+.home {
+    background: #261C31;
+}
+
+.home-items {
+    background: url('../images/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 126px;
+}
+
+.home-items .drive {
+    color: #F7F8FF;
+    text-align: center;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 98.8px;
+    margin-bottom: 20px;
+}
+
+.home-items .digital {
+    color: #A551FB;
+    text-align: center;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 98.8px;
+}
+
+.home-items p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 600;
+    margin: 50px 256px;
+}
+
+.home-search{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.search{
+    position: relative;
+    width: 700px;
+}
+
+.search input{
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.search .search-icon{
+    background: #A551FB;
+    border-radius: 18px;
+    color: #fff;
+    line-height: 30px;
+    padding: 10px 25px;
+    position: absolute;
+    font-size: 30px;
+    top: 30px;
+    right: 20px;
+}
+
+.search .search-icon:hover{
+    background: #8a4acb;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.home-buttons .start-now{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 25px 50px;
+    color: #fff;
+    background: #A551FB;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.home-buttons .learn-more{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 25px 50px;
+    color: #fff;
+    background: #261C31;
+    border-radius: 20px;
+    border: 2px solid #A551FB;
+    margin-bottom: 50px;
 }
