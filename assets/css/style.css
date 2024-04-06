@@ -12,4 +12,85 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 69px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 40px;
+    height: auto;
+}
+
+.logo .text-logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: border-bottom 0.5 ease-in;
+}
+
+.nav-items a:hover {
+    border-bottom: 3px solid #A551FB;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-buttons a{
+    font-size: 20px;
+    text-decoration: none;
+} 
+
+.nav-buttons a.sign-in {
+    color: #A551FB;
+}
+
+.nav-buttons a.sign-in:hover {
+    color: #8a4acb;
+}
+
+.nav-buttons a.sign-up {
+    background: #A551FB;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.nav-buttons a.sign-up:hover {
+    background: #8a4acb;
 }
