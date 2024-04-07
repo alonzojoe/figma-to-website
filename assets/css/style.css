@@ -98,6 +98,44 @@ header {
 
 .home {
     background: #261C31;
+    position: relative;
+}
+
+.home img{
+    position: absolute;
+    max-width: 100%;
+    width: 15px;
+    height: auto;
+}
+
+.home img.top-left{
+    top: 78px;
+    left: 37px;
+}
+
+.home img.top-center{
+    top: 23px;
+    right: 794px;
+}
+
+.home img.top-right{
+    top: 55px;
+    right: 120px;
+}
+
+.home img.bottom-left{
+    top: 700px;
+    left: 32px;
+}
+
+.home img.bottom-center-left{
+    top: 750px;
+    left: 303px;
+}
+
+.home img.bottom-right{
+    top: 750px;
+    right: 470px;
 }
 
 .home-items {
@@ -197,4 +235,37 @@ header {
     border-radius: 20px;
     border: 2px solid #A551FB;
     margin-bottom: 50px;
+}
+
+.companies{
+    background: #FAE9D2;
+    padding: 31px 130px;
+}
+
+.company-items{
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    padding: 30px 80px;
+}
+
+.company-items a img{
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
+
+.trusted{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted p{
+    font-size: 30px;
+    line-height: 33.6px;
 }
