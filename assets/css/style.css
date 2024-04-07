@@ -268,4 +268,66 @@ header {
 .trusted p{
     font-size: 30px;
     line-height: 33.6px;
+    font-weight: 500;
+}
+
+.services{
+    background: #2A173E;
+    padding: 130px 60px;
+}
+
+.services .heading{
+    color: #fff;
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services .sub-heading{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services-items{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-items .item{
+    height: 300px;
+    width: 430px;
+    background: #A551FB;
+    border-radius: 20px;
+    padding: 40px 66px;
+}
+
+.services .item .item-content{
+    /* margin: 20px 33px; */
+    /* border: 1px solid red; */
+}
+
+.services-items .item .item-content img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.services-items .item .item-content p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 600;
 }
