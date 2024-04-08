@@ -474,6 +474,8 @@ header {
 }
 
 .work-items span{
+    display: block;
+    text-align: center;
     color: #F8F9FF;
     font-size: 20px;
     line-height: 30px;
