@@ -16,6 +16,10 @@ html {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 100px;
     background: #282828;
     display: flex;
@@ -23,6 +27,7 @@ header {
     justify-content: space-between;
     padding: 26px 69px;
     border-bottom: 5px solid #757575;
+    z-index: 99;
 }
 
 .logo {
