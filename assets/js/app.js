@@ -1,6 +1,6 @@
-console.log('figmaa to website')
+console.log("figmaa to website");
 
-const headerHeight = document.querySelector('header').offsetHeight;
-document.querySelector('.home').style.marginTop = `${headerHeight}px`
+const headerHeight = document.querySelector("header").offsetHeight;
+document.querySelector(".home").style.paddingTop = `${headerHeight}px`;
 
-console.log('header', headerHeight)
+console.log("header", headerHeight);
