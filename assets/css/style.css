@@ -675,3 +675,66 @@ header {
 .pricing-card .pricing-container button:hover {
   background: #ec8f03;
 }
+
+.stand-out {
+  border: 1px solid red;
+  background: #2f1c48;
+  padding: 100px 90px;
+  position: relative;
+}
+
+.stand-out .radius {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.stand-out .moon {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.stand-out .stand-out-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.stand-out .stand-out-content h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  z-index: 1;
+}
+
+.stand-out .stand-out-content h2::after {
+  margin-left: 20px;
+  content: url("../images/star.png");
+}
+
+.stand-out .stand-out-content .btn {
+  text-decoration: none;
+  background: #ac6cff;
+  padding: 25px 50px;
+  border-radius: 20px;
+  color: #f8f9ff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.stand-out .stand-out-content .btn:hover {
+  background: #8a4acb;
+}
+
+.stand-out p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  z-index: 99;
+}
