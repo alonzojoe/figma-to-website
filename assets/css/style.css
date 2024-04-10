@@ -152,17 +152,17 @@ header {
 }
 
 .home img.top-left {
-  top: 78px;
+  top: 178px;
   left: 37px;
 }
 
 .home img.top-center {
-  top: 23px;
+  top: 123px;
   right: 794px;
 }
 
 .home img.top-right {
-  top: 55px;
+  top: 155px;
   right: 120px;
 }
 
@@ -266,7 +266,7 @@ header {
   color: #fff;
   background: #a551fb;
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .home-buttons .start-now:hover {
@@ -281,7 +281,7 @@ header {
   background: #261c31;
   border-radius: 20px;
   border: 2px solid #a551fb;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .home-buttons .learn-more:hover {
